@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "The Endorser",
+  "version": "1.0",
+  "description": "Endorse your friends on LinkedIn in ONE click!",
+  "icons": {
+    "16" : "/images/icon_19.png",
+    "48" : "/images/icon_48.png",
+    "64" : "/images/icon_64.png"},
+
+  "browser_action": {
+    "default_icon": "/images/icon_19.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": ["https://www.linkedin.com/"]
+}
