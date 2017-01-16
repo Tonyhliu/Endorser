@@ -1,7 +1,8 @@
 h1 {
   text-align: center;
-  font-family: roboto, sans-serif;  
+  font-family: roboto, sans-serif;
   text-shadow: 0 1px 1px #fff;
+  color: #3B3738;
 }
 
 .container {
@@ -15,6 +16,7 @@ button {
     padding: 10px 15px;
     margin-bottom: 5px;
     background: #4479BA;
+    /*background: #67BCDB;*/
     color: #FFF;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
