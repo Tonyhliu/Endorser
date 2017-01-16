@@ -2,7 +2,6 @@ var injectUnendorsed = injectUnendorsed || (function() {
   var methods = {};
 
   methods.getUnendorseButtons = function() {
-    // buttonArr = document.getElementsByClassName("endorsed-by-viewer");
     if (document.querySelectorAll('.pv-skills-section__additional-skills[aria-expanded="false"]').length > 0) {
       // expands skills section
       document.getElementsByClassName('pv-skills-section__additional-skills')[0].click();
@@ -15,13 +14,6 @@ var injectUnendorsed = injectUnendorsed || (function() {
     } else {
       alert("No endorsements found!");
     }
-    // if (buttonArr.length > 0) {
-    //   while (!buttonArr.length >= 0) {
-    //     buttonArr[0].children[1].children[1].click();
-    //   }
-    // } else {
-    //   alert("No endorsements found!");
-    // }
   };
 
   chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
