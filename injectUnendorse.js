@@ -6,7 +6,7 @@ var injectUnendorsed = injectUnendorsed || (function() {
       // expands skills section
       document.getElementsByClassName('pv-skills-section__additional-skills')[0].click();
     }
-    var unendorseArr = (document.querySelectorAll('[data-control-name="unendorse"]'));
+    var unendorseArr = (document.querySelectorAll('.pv-skill-entity__featured-endorse-button-shared'));
     if (unendorseArr.length > 0) {
       for (let i = 0; i < unendorseArr.length; i++ ) {
           unendorseArr[i].click();
