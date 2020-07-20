@@ -8,7 +8,7 @@ var injected = injected || (function() {
       // expands skills section
       document.getElementsByClassName('pv-skills-section__additional-skills')[0].click();
     }
-    var endorseArr = (document.querySelectorAll('[data-control-name="endorse"]'));
+    var endorseArr = (document.querySelectorAll('.pv-skill-entity__featured-endorse-button-shared'));
     if (endorseArr.length > 0) {
       for (let i = 0; i < endorseArr.length; i++ ) {
           endorseArr[i].click();
